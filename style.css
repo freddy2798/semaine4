@@ -1,0 +1,39 @@
+div.rouge
+    {position: relative;
+        width: 600px ;
+        height: 600px;
+        background-color: red;
+        border-radius: 100%;}
+
+        div.vert
+        {position: absolute;
+            width: 400px ;
+            height: 400px;
+            background-color: green;
+            border-radius: 100%; 
+            margin: 100px;
+        }
+
+            div.bleu
+            {position: absolute;
+                width: 200px ;
+                height: 200px;
+                background-color: blue;
+                border-radius: 100%;
+            margin: 200px;}
+
+            .container
+            {border: 4px;
+            border-color: black; display: flex;}
+
+            .container div
+            {padding: 30px ;}
+
+            .container .bloc1
+            {background: red;}
+
+            .container .bloc2
+            {background:yellow;}
+
+            .container .bloc3
+            {background: green;}
